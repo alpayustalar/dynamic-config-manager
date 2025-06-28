@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Configuration.WebApi\\Configuration.WebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Configuration.WebApp\\Configuration.WebApp.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

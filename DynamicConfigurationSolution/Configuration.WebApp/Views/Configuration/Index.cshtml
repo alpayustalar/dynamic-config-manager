@@ -1,0 +1,90 @@
+﻿@model List<Configuration.WebApp.Models.ConfigurationItem>
+
+@{
+    ViewData["Title"] = "Konfigürasyon Listesi";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Error"]
+    </div>
+}
+
+<!-- Yeni Kayıt Butonu -->
+<a href="/Configuration/Create" class="btn btn-success mb-3">Yeni Kayıt</a>
+
+<!-- Filtreleme -->
+<input type="text" id="filterInput" placeholder="İsimle filtrele..." class="form-control mb-3" onkeyup="filterTable()" />
+
+<table class="table table-bordered table-striped" id="configTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Value</th>
+            <th>IsActive</th>
+            <th>ApplicationName</th>
+            <th>LastUpdated</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Type</td>
+                <td>@item.Value</td>
+                <td>@item.IsActive</td>
+                <td>@item.ApplicationName</td>
+                <td>@item.LastUpdated.ToString("g")</td>
+                <td>
+                    <a class="btn btn-sm btn-warning" href="/Configuration/Edit/@item.Id">Güncelle</a>
+                    <form method="post" asp-action="Delete" asp-controller="Configuration" asp-route-id="@item.Id" onsubmit="return confirm('Bu kaydı silmek istediğinize emin misiniz?')" style="display:inline;">
+                        <button type="submit" class="btn btn-sm btn-danger">Sil</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function filterTable() {
+        const input = document.getElementById("filterInput").value.toLowerCase();
+        const rows = document.querySelectorAll("#configTable tbody tr");
+
+        rows.forEach(row => {
+            // Sadece 1. hücreyi (Name sütunu) kontrol et
+            const nameCell = row.querySelector("td:nth-child(1)");
+            const name = nameCell?.textContent.toLowerCase() || "";
+
+            row.style.display = name.includes(input) ? "" : "none";
+        });
+    }
+
+    @if (TempData["Success"] != null)
+    {
+            <text>
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Başarılı!',
+                    text: '@Html.Raw(TempData["Success"])'
+                    });
+            </text>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+            <text>
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Hata!',
+                    text: '@Html.Raw(TempData["Error"])'
+                });
+            </text>
+    }
+</script>

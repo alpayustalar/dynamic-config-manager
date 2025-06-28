@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Case_1\\DynamicConfigurationSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BF9790C-F041-48ED-AEE8-EA7C81FF8EDB}|Configuration.WebApi\\Configuration.WebApi.csproj|c:\\case_1\\dynamicconfigurationsolution\\configuration.webapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{3BF9790C-F041-48ED-AEE8-EA7C81FF8EDB}|Configuration.WebApi\\Configuration.WebApi.csproj|solutionrelative:configuration.webapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900EDA37-B865-41B8-A828-A4CA4B3327A5}|ConfigurationLibrary\\ConfigurationLibrary.csproj|c:\\case_1\\dynamicconfigurationsolution\\configurationlibrary\\configurationreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900EDA37-B865-41B8-A828-A4CA4B3327A5}|ConfigurationLibrary\\ConfigurationLibrary.csproj|solutionrelative:configurationlibrary\\configurationreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03066289-916F-402A-8356-AB46816C2C52}|Configuration.UnitTests\\Configuration.UnitTests.csproj|c:\\case_1\\dynamicconfigurationsolution\\configuration.unittests\\configurationreadertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03066289-916F-402A-8356-AB46816C2C52}|Configuration.UnitTests\\Configuration.UnitTests.csproj|solutionrelative:configuration.unittests\\configurationreadertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFA5052-537C-4145-A8E8-9C061B094E25}|Configuration.WebApp\\Configuration.WebApp.csproj|c:\\case_1\\dynamicconfigurationsolution\\configuration.webapp\\controllers\\configurationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFA5052-537C-4145-A8E8-9C061B094E25}|Configuration.WebApp\\Configuration.WebApp.csproj|solutionrelative:configuration.webapp\\controllers\\configurationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEFA5052-537C-4145-A8E8-9C061B094E25}|Configuration.WebApp\\Configuration.WebApp.csproj|c:\\case_1\\dynamicconfigurationsolution\\configuration.webapp\\services\\configurationapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEFA5052-537C-4145-A8E8-9C061B094E25}|Configuration.WebApp\\Configuration.WebApp.csproj|solutionrelative:configuration.webapp\\services\\configurationapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BF9790C-F041-48ED-AEE8-EA7C81FF8EDB}|Configuration.WebApi\\Configuration.WebApi.csproj|c:\\case_1\\dynamicconfigurationsolution\\configuration.webapi\\controllers\\configurationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BF9790C-F041-48ED-AEE8-EA7C81FF8EDB}|Configuration.WebApi\\Configuration.WebApi.csproj|solutionrelative:configuration.webapi\\controllers\\configurationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900EDA37-B865-41B8-A828-A4CA4B3327A5}|ConfigurationLibrary\\ConfigurationLibrary.csproj|c:\\case_1\\dynamicconfigurationsolution\\configurationlibrary\\dbconnection\\configurationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900EDA37-B865-41B8-A828-A4CA4B3327A5}|ConfigurationLibrary\\ConfigurationLibrary.csproj|solutionrelative:configurationlibrary\\dbconnection\\configurationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Case_1\\DynamicConfigurationSolution\\Configuration.WebApi\\README.md",
+              "RelativeDocumentMoniker": "Configuration.WebApi\\README.md",
+              "ToolTip": "C:\\Case_1\\DynamicConfigurationSolution\\Configuration.WebApi\\README.md",
+              "RelativeToolTip": "Configuration.WebApi\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-06-28T09:16:13.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfigurationReaderTests.cs",
+              "DocumentMoniker": "C:\\Case_1\\DynamicConfigurationSolution\\Configuration.UnitTests\\ConfigurationReaderTests.cs",
+              "RelativeDocumentMoniker": "Configuration.UnitTests\\ConfigurationReaderTests.cs",
+              "ToolTip": "C:\\Case_1\\DynamicConfigurationSolution\\Configuration.UnitTests\\ConfigurationReaderTests.cs",
+              "RelativeToolTip": "Configuration.UnitTests\\ConfigurationReaderTests.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T09:09:20.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfigurationController.cs",
+              "DocumentMoniker": "C:\\Case_1\\DynamicConfigurationSolution\\Configuration.WebApp\\Controllers\\ConfigurationController.cs",
+              "RelativeDocumentMoniker": "Configuration.WebApp\\Controllers\\ConfigurationController.cs",
+              "ToolTip": "C:\\Case_1\\DynamicConfigurationSolution\\Configuration.WebApp\\Controllers\\ConfigurationController.cs",
+              "RelativeToolTip": "Configuration.WebApp\\Controllers\\ConfigurationController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T21:56:12.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConfigurationReader.cs",
+              "DocumentMoniker": "C:\\Case_1\\DynamicConfigurationSolution\\ConfigurationLibrary\\ConfigurationReader.cs",
+              "RelativeDocumentMoniker": "ConfigurationLibrary\\ConfigurationReader.cs",
+              "ToolTip": "C:\\Case_1\\DynamicConfigurationSolution\\ConfigurationLibrary\\ConfigurationReader.cs",
+              "RelativeToolTip": "ConfigurationLibrary\\ConfigurationReader.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwFkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T22:40:19.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfigurationApiService.cs",
+              "DocumentMoniker": "C:\\Case_1\\DynamicConfigurationSolution\\Configuration.WebApp\\Services\\ConfigurationApiService.cs",
+              "RelativeDocumentMoniker": "Configuration.WebApp\\Services\\ConfigurationApiService.cs",
+              "ToolTip": "C:\\Case_1\\DynamicConfigurationSolution\\Configuration.WebApp\\Services\\ConfigurationApiService.cs",
+              "RelativeToolTip": "Configuration.WebApp\\Services\\ConfigurationApiService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T21:46:16.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConfigurationController.cs",
+              "DocumentMoniker": "C:\\Case_1\\DynamicConfigurationSolution\\Configuration.WebApi\\Controllers\\ConfigurationController.cs",
+              "RelativeDocumentMoniker": "Configuration.WebApi\\Controllers\\ConfigurationController.cs",
+              "ToolTip": "C:\\Case_1\\DynamicConfigurationSolution\\Configuration.WebApi\\Controllers\\ConfigurationController.cs",
+              "RelativeToolTip": "Configuration.WebApi\\Controllers\\ConfigurationController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T20:09:23.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConfigurationDbContext.cs",
+              "DocumentMoniker": "C:\\Case_1\\DynamicConfigurationSolution\\ConfigurationLibrary\\DBConnection\\ConfigurationDbContext.cs",
+              "RelativeDocumentMoniker": "ConfigurationLibrary\\DBConnection\\ConfigurationDbContext.cs",
+              "ToolTip": "C:\\Case_1\\DynamicConfigurationSolution\\ConfigurationLibrary\\DBConnection\\ConfigurationDbContext.cs",
+              "RelativeToolTip": "ConfigurationLibrary\\DBConnection\\ConfigurationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T22:58:27.137Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
